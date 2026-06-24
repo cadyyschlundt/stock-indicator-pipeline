@@ -1,9 +1,9 @@
 ## Current Progress
-- Finished 01_data_loader.ipynb ✅
-- Finished 02_indicators.ipynb ✅
-- Finished 03_visualization.ipynb ✅
+- Finished 01_data_loader.ipynb 
+- Finished 02_indicators.ipynb 
+- Finished 03_visualization.ipynb 
 
-## Where we left off
+## Where I left off
 - All three notebooks complete and committed
 - Next step: 04_ notebook — run `ta` indicators on QQQ and AAPL to generate their feature CSVs (same way SPY_features.csv was made in 02_indicators.ipynb)
 - After that, visualization will work for all 3 tickers automatically via the ticker loop in Cell 7
