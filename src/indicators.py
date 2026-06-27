@@ -77,7 +77,7 @@ def compute_indicators(ticker, output_dir=None):
 
 
 # Run
-TICKERS = ["SPY", "QQQ", "AAPL"]
+TICKERS = ["SPY", "QQQ", "IWM", "DIA", "GLD", "TLT", "XLE", "AAPL", "MSFT", "GOOGL", "NVDA", "META", "AMD", "JPM", "BAC", "GS", "V", "MA", "JNJ", "UNH", "PFE", "ABBV", "MRK", "XOM", "CVX", "COP", "SLB", "AMZN", "TSLA", "HD", "MCD", "CAT", "BA", "HON", "UPS"]
 
 if __name__ == "__main__":
     for ticker in TICKERS:

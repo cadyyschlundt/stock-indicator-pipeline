@@ -206,7 +206,7 @@ def create_visualizations(ticker):
     plot_matplotlib(df, ticker)
 
 # Run
-TICKERS = ["SPY", "QQQ", "AAPL"]
+TICKERS = ["SPY", "QQQ", "IWM", "DIA", "GLD", "TLT", "XLE", "AAPL", "MSFT", "GOOGL", "NVDA", "META", "AMD", "JPM", "BAC", "GS", "V", "MA", "JNJ", "UNH", "PFE", "ABBV", "MRK", "XOM", "CVX", "COP", "SLB", "AMZN", "TSLA", "HD", "MCD", "CAT", "BA", "HON", "UPS"]
 
 for ticker in TICKERS:
     create_visualizations(ticker)

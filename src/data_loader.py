@@ -17,7 +17,7 @@ def download_data(tickers, start_date):
         print(f"Saved {ticker}.csv to {RAW_DATA_DIR}")
 
 # Run the fuction
-TICKERS = ["SPY", "QQQ", "AAPL"]
+TICKERS = ["SPY", "QQQ", "IWM", "DIA", "GLD", "TLT", "XLE", "AAPL", "MSFT", "GOOGL", "NVDA", "META", "AMD", "JPM", "BAC", "GS", "V", "MA", "JNJ", "UNH", "PFE", "ABBV", "MRK", "XOM", "CVX", "COP", "SLB", "AMZN", "TSLA", "HD", "MCD", "CAT", "BA", "HON", "UPS"]
 START_DATE = "2014-01-01"
 
 download_data(TICKERS, START_DATE)
