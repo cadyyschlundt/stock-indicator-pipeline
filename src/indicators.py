@@ -73,10 +73,13 @@ def compute_indicators(ticker, output_dir=None):
     df.to_csv(output_dir / f"{ticker}_features.csv")
     print(f"Saved to {output_dir / f'{ticker}_features.csv'}")
 
+    return df
+
 
 # Run
 TICKERS = ["SPY", "QQQ", "AAPL"]
 
-for ticker in TICKERS:
-    compute_indicators(ticker)
+if __name__ == "__main__":
+    for ticker in TICKERS:
+        compute_indicators(ticker)
 
